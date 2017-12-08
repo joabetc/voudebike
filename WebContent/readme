@@ -1,0 +1,18 @@
+README
+======
+
+08/12/2017 - 11:46
+
+Time
+	- Ana Paula dos Anjos				- Joabe Tavares Costa
+	- Bruno Stuelp Filho				- Leticia Fernandes de Jesus de Medeiros
+	- Carlos Eduardo Ardigo				- Scheila Rockenbach
+	- Dayana De Biazi Hoffmann			- Vinicius Hanrejszkow
+	- Earley De Carvalho Seixa			- Wilson Sasaki Junior
+
+1 - tecnologia utilizada
+	1.1 - JSP com Servlets
+	1.2 - Mysql
+	1.3 - Ajax para integração frontend/backend
+	1.4 - API google maps
+	1.5 - TDD Junit

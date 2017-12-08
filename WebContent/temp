@@ -1,0 +1,32 @@
+Estacionamento
+--------------
+SELECT id, nome, endereco, telefone, estoque FROM treinamento.estacionamento;
+
+
+Usuário
+-------
+SELECT id, email, senha FROM treinamento.usuario
+where email = 'joao@gmail.com' 
+and senha = '12345';
+
+
+$.ajax(
+{
+	url : 'Processamento',
+	type: "post",
+	dataType: "json",
+	data: 
+	{ 
+		id : "7" 
+	},
+	success : function(json)
+	{
+		var options = "<option value='' selected>Escolha...</option>";
+		$.each(json, function(key, value)
+		{
+			options += '<option value="' + key + '">' + value + '</option>';
+		});
+
+		$("#idMassoterapeuta").html(options);
+	}
+});
